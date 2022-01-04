@@ -1,5 +1,6 @@
-# Title
-Simple (or clever and funny?) description
+# Autocorrect٩(•̤̀ᵕ•̤́๑)
+A machine that recommends words after the user inputs a incorrect word, that is not in the dictionary. Made as a project for Code2college.
+- Made from my pain and tears  ᕕ( ᐛ )ᕗ
 ## Table of Contents
 - [Background](#background)
 - [Install](#install)
@@ -7,8 +8,7 @@ Simple (or clever and funny?) description
 ## Background
 This is why this application exists.
 ## Install
-These are the steps to setup your local environment to run this
-application.
+Requires Python 3.8.2
 ## Usage
 These are the steps to use the application or interact with it.
 ### Any optional sections
