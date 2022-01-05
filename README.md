@@ -8,7 +8,7 @@ A machine that recommends words after the user inputs a incorrect word, that is 
 ## Background
 This is why this application exists.
 ## Install
-Requires Python 3.8.2
+Requires Python 3.8.2 and the psychecker package
 ## Usage
 These are the steps to use the application or interact with it.
 ### Any optional sections
