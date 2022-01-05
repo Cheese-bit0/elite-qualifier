@@ -1,12 +1,12 @@
 # Autocorrect٩(•̤̀ᵕ•̤́๑)
-A machine that recommends words after the user inputs a incorrect word, that is not in the dictionary. Made as a project for Code2college.
+A machine that recommends words after the user inputs a incorrect word, that is not in the dictionary. 
 - Made from my pain and tears  ᕕ( ᐛ )ᕗ
 ## Table of Contents
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
 ## Background
-This is why this application exists.
+This is made as a project for Code2college.
 ## Install
 Requires Python 3.8.2 and the psychecker package
 ## Usage
