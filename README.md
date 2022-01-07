@@ -16,4 +16,4 @@ These are the steps to use the application or interact with it.
 1. Run the test
 2. Check the results
 3. I am very confused
-4. ┐(￣ヘ￣)┌ I was confused, was
+4. ┐(￣ヘ￣)┌ I'm now very big brain :)
