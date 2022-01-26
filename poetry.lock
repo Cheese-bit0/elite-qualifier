@@ -1,0 +1,18 @@
+[[package]]
+name = "pyspellchecker"
+version = "0.6.3"
+description = "Pure python spell checker based on work by Peter Norvig"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "db24bc309c1ba32bcd525941ed13efbf588c5d5d4f0ba86b6f9f26c4ebe0fb8b"
+
+[metadata.files]
+pyspellchecker = [
+    {file = "pyspellchecker-0.6.3-py3-none-any.whl", hash = "sha256:9e19a683bd8d77b2668b1ffce2fd0e0a0e63b6ea3f6819aabc08f115ca1d1d88"},
+    {file = "pyspellchecker-0.6.3.tar.gz", hash = "sha256:764dfe1bcbd4d860b74205402167d55a02910870c07b83678e7d6b5a4d471909"},
+]
