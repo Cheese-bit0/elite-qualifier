@@ -21,23 +21,34 @@ def load_words():
 
 def suggest(text, all_words):
   # YOUR CODE HERE. This currently doesn't suggest a correction, just checks if the input is already a word. You'll want to change that
-  
-  if text in all_words:
-    print(text + ' is correctly spelled!')
+  word_split = text.split(" ")
+  if len(word_split) > 1:
+    for word in word_split: 
+      if word in all_words:
+        print(text + ' is correctly spelled!')
+      else:
+        misspelled = word
+        print("Do you mean " + str(spell.candidates(misspelled)) + " ?")  
   else:
-    misspelled = text
-    print("Do you mean " + str(spell.candidates(misspelled)) + " ?")  
-    
+    if text in all_words:
+      print(text + ' is correctly spelled!')
+    else:
+      misspelled = text
+      print("Do you mean " + str(spell.candidates(misspelled)) + " ?")  
+
+
 def main():
-    all_words = load_words()
-    print('Type some text, or type \"quit\" to stop')
-    while True:
-        text = input(':> ')
-        if ('quit' == text):
-          break
-        suggest(text, all_words)
+  print("Hello")
+  all_words = load_words()
+  print('Type some text, or type \"quit\" to stop')
+  while True:
+      text = input(':> ')
+      if ('quit' == text):
+        break
+      suggest(text, all_words)
 
 if __name__ == "__main__":
-    main()
+  print("Hello")
+  main()
 
 #Resource - https://www.geeksforgeeks.org/spelling-checker-in-python/
