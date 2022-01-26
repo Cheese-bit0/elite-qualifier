@@ -42,10 +42,10 @@ def main():
   all_words = load_words()
   print('Type some text, or type \"quit\" to stop')
   while True:
-      text = input(':> ')
-      if ('quit' == text):
-        break
-      suggest(text, all_words)
+    text = input(':> ')
+    if ('quit' == text):
+      break
+    suggest(text, all_words)
 
 if __name__ == "__main__":
   print("Hello")
